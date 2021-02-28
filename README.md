@@ -9,11 +9,11 @@ Since this is a Perceptron algorithm, all it can do is binary classification. Ho
 
 In the following image, you can see the prediction boundary after 1000 epochs of training:
 
-<img src="./decision_boundary.png" width="600" height="300">
+<img src="./images/decision_boundary.png" width="600" height="300">
 
 And here the values for the weights over the epochs:
 
-<img src="./weight_values.png" width="500" height="300">
+<img src="./images/weight_values.png" width="500" height="300">
 
 
 ### Todo:
@@ -26,12 +26,12 @@ This is my first try at a perceptron. It's able properly classify 'linear' logic
 
 The first one is an OR gate with two inputs, A and B. The feature combinations \[A, B] = [1, 0], [0, 1], [1, 1] belong to the class 1 (or True), while \[0, 0] belongs to the class 0 (False). In this case, the perceptron is able to lay a single, straight line in between the classes and thereby classify correctly.
 
-<img src="./classification_OR.png" width="300" height="200">
+<img src="./images/classification_OR.png" width="300" height="200">
 
 
 By contrast, here is the class 'distribution' for an XOR gate:
 
-<img src="./classification_XOR.png" width="200" height="200">
+<img src="./images/classification_XOR.png" width="200" height="200">
 
 
 Since there is no way to split the classes with a single, straight line the perceptron reaches the limits of its classification abilities and is bound to misclassify some features.
