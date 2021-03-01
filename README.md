@@ -1,6 +1,9 @@
 # neural-nets-basics
 A collection of neural network scripts I've written, some from scratch
 
+## `iris_logistic_regression.ipynb`
+This is my first try at logistic regression
+
 ## `iris_perceptron.ipynb`
 
 This Perceptron (single neuron ML alrogirthm) is one the first ML algorthms I coded from scratch. I chose this style of algorithm because I needed to know the basics to Neural Networks to build and debug it (boy was that fun), without the more complicated task of scaling that up to an entire network (yet). For training data, I chose the infamous iris dataset.
