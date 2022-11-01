@@ -1,10 +1,11 @@
 # neural-nets-basics
 A collection of neural network scripts I've written, some from scratch
 
-## `iris_logistic_regression.ipynb`
+## simple_classifier
+### `iris_logistic_regression.ipynb`
 This is my first try at logistic regression
 
-## `iris_perceptron.ipynb`
+### `iris_perceptron.ipynb`
 
 This Perceptron (single neuron ML alrogirthm) is one the first ML algorthms I coded from scratch. I chose this style of algorithm because I needed to know the basics to Neural Networks to build and debug it (boy was that fun), without the more complicated task of scaling that up to an entire network (yet). For training data, I chose the infamous iris dataset.
 
@@ -19,11 +20,11 @@ And here the values for the weights over the epochs:
 <img src="./images/weight_values.png" width="500" height="300">
 
 
-### Todo:
+#### Todo:
 * Multiclass Classfication (all three iris species)
 * simple regularisation
 
-## `truth_table_perceptron.ipynb`
+### `truth_table_perceptron.ipynb`
 
 This is my first try at a perceptron. It's able properly classify 'linear' logical operators (AND, OR, NAND, NOR), but stuggles with 'nonlinear' ones (e.g. XOR). To explain what I mean with that here are two examples:
 
@@ -38,3 +39,8 @@ By contrast, here is the class 'distribution' for an XOR gate:
 
 
 Since there is no way to split the classes with a single, straight line the perceptron reaches the limits of its classification abilities and is bound to misclassify some features.
+
+## relu_visualization
+Small dashboard that simulates three consecutive ReLU neurons and plots the respective outputs of each neuron's activation function. The weight w and the bias b can be manually selected for all three neurons. Some combinations of parameters give interesting output functions: For example, a non-zero w1, negative w2 and positive b2 results in an approximation of a sigmoid function as the second neurons activation function.
+
+The dashboard can be accessed by running `main.py`
